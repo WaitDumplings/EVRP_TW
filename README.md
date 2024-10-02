@@ -4,15 +4,14 @@
 This repository implements the **Electric Vehicle Routing Problem with Time Windows (EVRP_TW)**, aimed at optimizing routing and charging schedules for electric vehicles.
 
 ## Folder Structure
-
-EVRP_TW/ 
-├── EVRP_Graph.py 
-├── EVRP_Solver.py 
-├── data_parser.py  
-├── main.py 
-├── utility.py 
-├── evrptw_instances/ 
+```
+.
+├── EVRP_Graph.py # Contains the Graph_EVRP_TW class for representing the EVRP-TW graph structure
+├── EVRP_Solver.py # Implements the EVPR_TW_Solver class
+├── README.mdevrptw_instances # Data instances
+├── data_parser.py # A utility for parsing input data files into the necessary format for the solver.
 └── README.md
+```
 
 ## Prerequisites
 
