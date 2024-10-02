@@ -10,6 +10,8 @@ This repository implements the **Electric Vehicle Routing Problem with Time Wind
 ├── EVRP_Solver.py # Implements the EVPR_TW_Solver class
 ├── README.mdevrptw_instances # Data instances
 ├── data_parser.py # A utility for parsing input data files into the necessary format for the solver.
+├── main.py # main function
+├── utility.py # help functions
 └── README.md
 ```
 
@@ -19,6 +21,8 @@ This repository implements the **Electric Vehicle Routing Problem with Time Wind
 - **IBM ILOG CPLEX Optimization Studio**: Ensure CPLEX is installed and accessible. You can check this by running:
   ```bash
   python -c "import cplex"
-
+    ```
 ## How to Use (For an instance)
+```bash
 python main.py --file_path your_instance_path
+```
